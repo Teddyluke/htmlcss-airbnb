@@ -5,23 +5,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  width: 98vw;
+  height: 98vh;
+  margin:10px;
+  background: url(../img/venezia.jpg);
+  position: relative;
+  box-shadow: 3px 3px 3px;
+}
+/* layer opacizzazione */
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.6);
+}
+/*  impostazioni title */
+.title{
+  text-align:center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-size: 3em;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  font-weight: bold;
 
-.frontpage{
-height: 100vw;
-width: 100vw;
-background-repeat: no-repeat;
-background-size: contain;
-}
-
-/* regole venezia */
-.venezia {
-  background-image: url(../img/venezia.jpg);
-}
-/* regole pisa */
-.pisa {
-background-image: url(../img/pisa.jpg);
-}
-/* regole langhirano */
-.langhirano {
-background-image: url(../img/langhirano.jpg);
 }
