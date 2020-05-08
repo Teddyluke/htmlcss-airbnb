@@ -9,10 +9,26 @@
   width: 98vw;
   height: 98vh;
   margin:10px;
-  background: url(../img/venezia.jpg);
   position: relative;
   box-shadow: 3px 3px 3px;
 }
+/* regole singole immagini */
+.venezia{
+  background:url(../img/venezia.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.pisa {
+  background: url(../img/pisa.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.langhirano {
+  background: url(../img/langhirano.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 /* layer opacizzazione */
 .layover{
   position: absolute;
@@ -22,6 +38,7 @@
   height: 100%;
   background-color:rgba(0,0,0,0.6);
 }
+
 /*  impostazioni title */
 .title{
   text-align:center;
@@ -33,5 +50,4 @@
   text-shadow: 3px 3px 3px black;
   color: white;
   font-weight: bold;
-
 }
