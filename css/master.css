@@ -1,0 +1,27 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frontpage{
+height: 100vw;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+/* regole venezia */
+.venezia {
+  background-image: url(../img/venezia.jpg);
+}
+/* regole pisa */
+.pisa {
+background-image: url(../img/pisa.jpg);
+}
+/* regole langhirano */
+.langhirano {
+background-image: url(../img/langhirano.jpg);
+}
